@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testappforj", "testappforj\testappforj.csproj", "{E68196D6-7D93-4FBF-BF3C-1C0537FA6170}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testappforj.UITests", "testappforj.UITests\testappforj.UITests.csproj", "{A4744A45-7DBB-4E97-824D-63566629B0B9}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -15,18 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A4744A45-7DBB-4E97-824D-63566629B0B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A4744A45-7DBB-4E97-824D-63566629B0B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A4744A45-7DBB-4E97-824D-63566629B0B9}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{A4744A45-7DBB-4E97-824D-63566629B0B9}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{A4744A45-7DBB-4E97-824D-63566629B0B9}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{A4744A45-7DBB-4E97-824D-63566629B0B9}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{A4744A45-7DBB-4E97-824D-63566629B0B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A4744A45-7DBB-4E97-824D-63566629B0B9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A4744A45-7DBB-4E97-824D-63566629B0B9}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{A4744A45-7DBB-4E97-824D-63566629B0B9}.Release|iPhone.Build.0 = Release|Any CPU
-		{A4744A45-7DBB-4E97-824D-63566629B0B9}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{A4744A45-7DBB-4E97-824D-63566629B0B9}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{E68196D6-7D93-4FBF-BF3C-1C0537FA6170}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
 		{E68196D6-7D93-4FBF-BF3C-1C0537FA6170}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
 		{E68196D6-7D93-4FBF-BF3C-1C0537FA6170}.Debug|iPhone.ActiveCfg = Debug|iPhone

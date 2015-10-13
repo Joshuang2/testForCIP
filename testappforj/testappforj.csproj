@@ -62,10 +62,20 @@
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
-    <Reference Include="Xamarin.iOS" />
+    <Reference Include="Xamarin.iOS">
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Calabash">
       <HintPath>..\packages\Xamarin.TestCloud.Agent.0.13.0\lib\Xamarin.iOS10\Calabash.dll</HintPath>
     </Reference>
+    <Reference Include="Mono.CSharp" />
+    <Reference Include="Mono.Data.Sqlite" />
+    <Reference Include="Mono.Data.Tds" />
+    <Reference Include="Mono.Dynamic.Interpreter" />
+    <Reference Include="MonoTouch.Dialog-1" />
+    <Reference Include="Mono.Security" />
+    <Reference Include="MonoTouch.NUnitLite" />
+    <Reference Include="System.Windows" />
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json" />
