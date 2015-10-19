@@ -32,7 +32,8 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <ConsolePause>false</ConsolePause>
-    <CodesignKey>iPhone Developer: joshuang2@datacom.co.nz (3JE2Y64CGK)</CodesignKey>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignProvision>64536953-2465-42b6-b3f3-db8d4cdd2823</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>full</DebugType>
