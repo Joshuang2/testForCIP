@@ -13,6 +13,7 @@ namespace testappforj
 		public override void ViewDidLoad ()
 		{
 			base.ViewDidLoad ();
+			this.testLabel.Hidden = true;
 			this.testLabel.Text = "Hello World";
 			// Perform any additional setup after loading the view, typically from a nib.
 		}
@@ -21,6 +22,13 @@ namespace testappforj
 		{
 			base.DidReceiveMemoryWarning ();
 			// Release any cached data, images, etc that aren't in use.
+		}
+
+		partial void UIButton11_TouchUpInside (UIButton sender)
+		{
+			this.testLabel.Text = "Hello User";
+			sender.Hidden = true;
+			this.testLabel.Hidden = false;
 		}
 	}
 }

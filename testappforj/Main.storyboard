@@ -17,17 +17,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" minimumFontSize="10" preferredMaxLayoutWidth="42" translatesAutoresizingMaskIntoConstraints="NO" id="3">
-                                <rect key="frame" x="279" y="290" width="42" height="21"/>
+                                <rect key="frame" x="279" y="290" width="42" height="20.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="11" misplaced="YES">
+                                <rect key="frame" x="263" y="285" width="75" height="30"/>
+                                <state key="normal" title="Press Here">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="UIButton11_TouchUpInside:" destination="BYZ-38-t0r" id="15" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="11" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NoQ-pK-2g6"/>
                             <constraint firstItem="3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="TwO-M8-91r"/>
                             <constraint firstItem="3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dQE-IJ-0kl"/>
+                            <constraint firstItem="11" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="zwF-DV-cPW"/>
                         </constraints>
                     </view>
                     <connections>
